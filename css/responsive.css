@@ -1,0 +1,89 @@
+@media only screen and (max-width:991px){
+    .navbar-toggler{
+        background:var(--main-to-dark-color);
+        box-shadow:var(--shadow-black-300);
+        height:34px;
+        width:44px;
+        color:#fff;
+        padding:0;
+        font-size:16px;
+        padding:0;
+    }
+    .navbar-nav{
+        
+        box-shadow:var(--shadow-black-300);
+    }
+    .navbar .nav-item{
+        margin:0;
+        padding:5px 15px;
+    }
+    .navbar .navbar-shrink .navbar-toggler, .navbar .navbar-shrink .navbar-nav{
+        background-color:var(--main-color) !important;
+
+    }
+    .home-img .circle{
+        width:320px;
+        height:320px;
+
+    }
+    .home-img .circle::before{
+        left:18px;
+        top:18px;
+        transform-origin: 142px 142px;
+    }
+    .home-text h1{
+        font-size:40px;
+    }
+    .app-download-item,.how-it-works-item,.pricing-plan{
+        margin-bottom:30px;
+    }
+    .how-it-works-item.line-right::before{
+        content:none;
+    }
+    .how-it-works-item {
+        box-shadow:var(--shadow-black-100);
+        border-radius:10px;    ;
+        -webkit-border-radius:10px    ;
+        -moz-border-radius:10px    ;
+        -ms-border-radius:10px    ;
+        -o-border-radius:10px    ;
+}
+.section-title h2{
+    font-size:30px;
+   
+}
+.funfacts .section-title h2{
+    text-align:center;
+}
+.pricing-plan .pricing-price .price{
+    font-size:50px;
+}
+
+
+
+}
+@media only  screen and (max-width:767px){
+    .home-text{
+        margin-bottom:80px;
+    }
+    .funfacts-mage{
+        margin-bottom:40px;
+    }
+    .pricing-plan .pricing-price .price{
+        font-size:35px;
+    }
+    .pricing-plan .pricing-header h3{
+        font-size:20px;
+    }
+ 
+}
+@media only  screen and (max-width:575px){
+
+    .home-text h1{
+        font-size:30px;
+    }
+    .home-text p{
+        font-size:16px;
+    }
+
+}
